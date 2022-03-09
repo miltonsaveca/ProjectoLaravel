@@ -1,0 +1,434 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+
+body{
+	background-image:url(../images/fundo.jpg) ;
+  background-position: left;
+  background-repeat: no-repeat;
+
+}
+
+
+
+.full-page{
+	width:1000px;
+	margin:0 auto;
+  padding-top:20px;
+}
+
+.full-page .logo{
+	font-family:Montserrat;
+	color:white;
+	font-size:18pt;
+	float:left;
+  font-weight: 600;
+	/*background:green;*/
+	text-align:center;
+	line-height:3.2;
+}
+
+.full-page .my-countdown{
+	font-family:segoe UI;
+	color:white;
+	/*background:blue;*/
+	float:left;
+	margin-left:110px;
+}
+
+
+.full-page .my-countdown .number{
+	font-weight:600;
+}
+
+.full-page .my-countdown .days{
+	float:left;
+	width:100px;
+	text-align:center;
+
+}
+
+
+.full-page .my-countdown .days .number{
+/*color:rgb(232, 14, 98);*/
+	/*font-weight:600;*/
+	font-size:40pt;
+	letter-spacing:0.5rem;
+}
+
+
+.full-page .my-countdown .days .show-case{
+letter-spacing:0.1rem;
+font-size:5pt;
+text-transform:uppercase;
+}
+
+.full-page .my-countdown .hours{
+	float:left;
+	width:100px;
+	text-align:center;
+}
+
+
+
+.full-page .my-countdown .hours .number{
+color:rgb(232, 14, 98);
+	/*font-weight:600;*/
+	font-size:40pt;
+	letter-spacing:0.5rem;
+}
+
+
+.full-page .my-countdown .hours .show-case{
+letter-spacing:0.1rem;
+font-size:5pt;
+text-transform:uppercase;
+}
+
+
+
+
+.full-page .my-countdown .minutes{
+	float:left;
+	width:100px;
+	text-align:center;
+}
+
+
+
+
+.full-page .my-countdown .minutes .number{
+color:rgb(232, 14, 98);
+	/*font-weight:600;*/
+	font-size:40pt;
+	letter-spacing:0.5rem;
+}
+
+
+.full-page .my-countdown .minutes .show-case{
+letter-spacing:0.1rem;
+font-size:5pt;
+text-transform:uppercase;
+}
+
+
+
+
+
+
+
+.full-page .my-countdown .seconds{
+	float:left;
+	width:100px;
+	text-align:center;
+
+}
+
+
+.full-page .my-countdown .seconds .number{
+/*color:rgb(232, 14, 98);*/
+	/*font-weight:600;*/
+	font-size:40pt;
+	letter-spacing:0.5rem;
+}
+
+
+.full-page .my-countdown .seconds .show-case{
+letter-spacing:0.1rem;
+font-size:5pt;
+text-transform:uppercase;
+}
+
+
+.full-page .icons{
+	float:left;
+	/*background:yellow;*/
+	height:80px;
+    margin-left:180px;
+
+}
+
+
+.full-page .icons .fb{
+	float:left;
+	height:80px;
+	line-height:5;
+	margin:0 10px;
+	cursor:pointer;
+
+}
+
+
+.full-page .icons .fb span i{
+	color:rgb(232, 14, 98);
+}
+
+
+.full-page .icons .tw{
+	float:left;
+	height:80px;
+	line-height:5;
+	margin:0 10px;
+	cursor:pointer;
+}
+
+.full-page .icons .tw span i{
+	color:white;
+}
+
+
+
+.full-page .icons .inst{
+	float:left;
+	height:80px;
+	line-height:5;
+	margin:0 7px;
+	cursor:pointer;
+}
+
+
+.full-page .icons .inst span i{
+	color:rgb(232, 14, 98);
+}
+
+
+
+
+.full-page .msg{
+	width:1000px;
+	float:left;
+	text-align:center;
+	margin-top:50px;
+	font-size:8pt;
+	letter-spacing:0.13rem;
+	font-family:segoe UI;
+	color:rgb(255,255,255);
+}
+
+
+.full-page .left-line{
+	float:left;
+	width:475px;
+	border-bottom:1px solid rgb(232, 14, 98);
+	color:red;
+	margin-top:30px;
+}
+
+
+.full-page .right-line{
+	float:right;
+	width:475px;
+	border-bottom:1px solid rgb(232, 14, 98);
+	color:red;
+	margin-top:30px;
+}
+
+
+.full-page .icon-clock{
+	float:left;
+	font-size:22pt;
+	margin-left:13px;
+	margin-top:15px;
+}
+
+.full-page .icon-clock i{
+	color:rgb(232, 14, 98)
+
+}
+
+.full-page .content-page{
+	float:left;
+	/*background:green;*/
+	font-family:segoe UI;
+	font-weight:600;
+}
+
+.full-page .content-page .title-content{
+
+	float:left;
+	font-size:34pt;
+	color:rgb(232, 14, 98);
+	text-transform:uppercase;
+
+	letter-spacing:0.2rem;
+	font-weight:600;
+	font-family:segoe UI;
+    /*background:red;*/
+	width:1000px;
+	line-height:1.8;
+}
+.full-page .content-page .title-content .t-title-content{
+	text-align:center;
+}
+
+
+
+.full-page .content-page .subtitle-content{
+	float:left;
+	font-size:14pt;
+	color:rgb(255,255,255,.5);
+	text-transform:uppercase;
+	font-size:15pt;
+	letter-spacing:0.2rem;
+	font-weight:600;
+	font-family:segoe UI;
+    /*background:yellow;*/
+	width:1000px;
+	line-height:1;
+}
+
+
+.full-page .content-page .subtitle-content .t-subtitle-content{
+	text-align:center;
+}
+
+
+
+.full-page .content-page .msg-content-1{
+  margin-top:30px;
+	font-size:8pt;
+	letter-spacing:0.13rem;
+	line-height:3;
+	color:rgb(255,255,255);
+	font-weight:normal;
+	width:1000px;
+	float:left;
+	/*background:blue;*/
+}
+
+.full-page .content-page .msg-content-1 .t-msg-content-1{
+	text-align:center;
+}
+
+
+
+
+
+
+
+.full-page .content-page .msg-content-2{
+	float:left;
+	font-size:8pt;
+	letter-spacing:0.13rem;
+	line-height:1;
+	color:rgb(255,255,255);
+	font-weight:normal;
+	/*background:orange;*/
+	width:1000px;
+}
+
+
+
+.full-page .content-page .msg-content-2 .t-msg-content-2{
+	text-align:center;
+}
+
+
+.full-page .content-page .box-form{
+	text-align:center;
+}
+
+
+.full-page .content-page .box-form .box-button{
+
+
+
+/*background:aqua;*/
+width:1000px;
+float:left;
+margin-top:20px;
+
+}
+
+
+
+.full-page .content-page .box-form .box-button .t-box-button{
+
+
+    color:rgb(255,255,255);
+    cursor:default;
+
+	padding:12px 25px;
+font-size:8pt;
+letter-spacing:0.2rem;
+}
+
+
+.full-page .content-page .box-form .box-button .t-box-button label{
+	background:rgb(232, 14, 98);
+	padding:12px 25px;
+	cursor:pointer;
+	transition:all 0.2s;
+}
+
+.full-page .content-page .box-form .box-button .t-box-button label:hover{
+	box-shadow:0px 1px 8px rgb(177,1,71);
+}
+
+
+
+.full-page .content-page .box-form .box-input{
+	float:left;
+	width:1000px;
+
+	margin-top:20px;
+
+}
+
+
+.full-page .content-page .box-form .box-input .t-box-input{
+
+
+	text-align:center;
+
+}
+
+.full-page .content-page .box-form .box-input .t-box-input input{
+	border:2px solid rgb(232, 14, 98);
+	width:300px;
+	padding:12px 0px;
+	letter-spacing:0.1rem;
+	font-size:7px;
+	text-align:center;
+	background:rgba(0,0,0,.1);
+	outline:none;
+	border-radius:0;
+	font-size:8pt;
+	color:rgba(255,255,255,.8);
+
+}
+
+
+.full-page .content-page .box-form input::placeholder{
+	color:rgba(255,255,255,.8);
+	letter-spacing:0.1rem;
+	font-size:7pt;
+	text-align:center;
+}
+
+
+.full-page footer{
+	float:left;
+	width:100%;
+	text-align:center;
+	font-size:8pt;
+	letter-spacing:0.2rem;
+	color:rgb(255,255,255);
+	font-family:segoe UI;
+	padding:10px 0px;
+	margin-top:100px;
+}
+
+
+.full-page footer a{
+color: rgb(232, 14, 98);
+font-weight: 600;
+}
+
+
+body{
+	background-image:url(../images/fundo.png) repeat-x;
+}
